@@ -1,4 +1,4 @@
-const StarsCanves = () =>{
+const StarsCanvas = () =>{
   return (
     <div>
       Hello StarsCanves
@@ -6,4 +6,4 @@ const StarsCanves = () =>{
   )
 }
 
-export default StarsCanves;
+export default StarsCanvas;
