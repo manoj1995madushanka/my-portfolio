@@ -86,6 +86,9 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
+To Download 3D models 
+- [Sketchfab](https://sketchfab.com/)
+
 **Cloning the Repository**
 
 ```bash
@@ -99,6 +102,10 @@ Install the project dependencies using npm:
 
 ```bash
 npm install
+```
+
+```bash
+npm install --legacy-peer-deps three
 ```
 
 **Set Up Environment Variables**
