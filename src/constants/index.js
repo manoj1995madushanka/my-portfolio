@@ -19,10 +19,10 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  hospital,
   jobit,
   tripguide,
-  threejs,
+  threejs, unimanage, mailer, cqrs, arbook, datascience,
 } from "../assets";
 
 export const navLinks = [
@@ -215,67 +215,122 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Scheduled Mail Sender",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A node js script that can deploy as lambda function and trigger mail at given time",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "AWS Lambda",
         color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: mailer,
+    source_code_link: "https://github.com/manoj1995madushanka/email-automator/tree/main",
   },
   {
-    name: "Job IT",
+    name: "Data Science Playground",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A course based tutorials done as learn machine learning algorithms and how those are implemented",
     tags: [
       {
-        name: "react",
+        name: "jupyter",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "python",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: datascience,
+    source_code_link: "https://github.com/manoj1995madushanka/pyton_for_data_science",
   },
   {
-    name: "Trip Guide",
+    name: "CQRS demo with kafka",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A course based project that demonstrate how to implement CQRS microservice with apache kafka",
     tags: [
       {
-        name: "nextjs",
+        name: "springboot",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "java",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "kafka",
+        color: "yellow-text-gradient",
+      }
+    ],
+    image: cqrs,
+    source_code_link: "https://github.com/manoj1995madushanka/kafka-cqrs-microservice",
+  },
+  {
+    name: "Augmented Reality Book",
+    description:
+      "A book that tells story while scanning images developed using unity and vuforia plugin",
+    tags: [
+      {
+        name: "C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Unity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vuforia",
+        color: "yellow-text-gradient",
+      }
+    ],
+    image: arbook,
+    source_code_link: "https://github.com/manoj1995madushanka/ARBook",
+  },
+  {
+    name: "Hospital Management System",
+    description:
+      "Web-based platform that allows doctor,admin and patient users to get information and manage hospital.",
+    tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: hospital,
+    source_code_link: "https://github.com/manoj1995madushanka/hospital-management-system",
+  },
+  {
+    name: "University Management System",
+    description:
+      "A simple university management system did as a university assignment",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Java Swing",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: unimanage,
+    source_code_link: "https://github.com/manoj1995madushanka/java-university-management-system/tree/master",
   },
 ];
 

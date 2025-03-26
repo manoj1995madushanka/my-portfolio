@@ -30,6 +30,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import hospital from "./experience/hospital.png"
+import unimanage from "./experience/unimanage.png"
+import mailer from "./experience/mailer.png"
+import cqrs from "./experience/cqrs.png"
+import arbook from "./experience/arbook.png"
+import datascience from "./experience/datascience.png"
+
 export {
   logo,
   backend,
@@ -59,4 +66,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  hospital,
+  unimanage,
+  mailer,
+  cqrs,
+  arbook,
+  datascience,
 };
