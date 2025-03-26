@@ -47,11 +47,19 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a <strong>Senior Software Engineer</strong> with over <strong>5 years of professional experience</strong>, having worked with reputed companies in the <strong>travel, delivery, and restaurant</strong> domains. My expertise spans across <strong>Java, TypeScript, Spring Boot, React, and React Native</strong>, allowing me to build <strong>high-performance enterprise applications</strong>.
+        <br /><br />
+        <strong>What I Do Best:</strong>
+        <ul className='list-disc pl-5'>
+          <li><strong>Microservice Development</strong> – Designing scalable and efficient architectures.</li>
+          <li><strong>Enterprise Application Development</strong> – Building robust solutions for complex business needs.</li>
+          <li><strong>Data Migration</strong> – Seamless data transitions with minimal downtime.</li>
+          <li><strong>Agile & Scrum Methodologies</strong> – Driving rapid and iterative development.</li>
+        </ul>
+        <br />
+        I am committed to <strong>continuous learning</strong>, staying up-to-date with the latest <strong>technology trends and AI-driven development methodologies</strong>. With a strong problem-solving mindset and a passion for efficiency, I leverage <strong>AI tools</strong> to optimize development time and deliver cutting-edge solutions.
+        <br /><br />
+        Let’s innovate and build the future together! 🚀
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
